@@ -49,9 +49,9 @@ SLAVE_ADDRESS = 0x7B            # SmartDisplay ID
 TIMEOUT = 0.3                   # seconds. At least 0.3 seconds required for 2400 bits/s ASCII mode.
 VALUE_MAPPING_ADDRESS = 2000
 
-#DEFAULT_PORT_NAME = "/dev/ttyUSB0"     # Linux
-DEFAULT_PORT_NAME = "COM22"             # Windows
-DEFAULT_BAUDRATE = 115200               # SmartDisplay baudrate
+DEFAULT_PORT_NAME = "/dev/ttyUSB0"     # Linux
+#DEFAULT_PORT_NAME = "COM22"           # Windows
+DEFAULT_BAUDRATE = 115200              # SmartDisplay baudrate
 
 def _box(description: Optional[str] = None, value: Any = None) -> None:
     """Print a single line in a box"""
