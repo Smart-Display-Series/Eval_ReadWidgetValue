@@ -1,5 +1,5 @@
 # ReadWidgetValue
-Show how to read value from RS485/Modbus smartdisplay using Python.
+Show how to read value from RS485/Modbus SmartDisplay using Python.
 
 ## Feature
 - Use the library [minimalmodbus](https://minimalmodbus.readthedocs.io/en/stable/index.html "minimalmodbus") and refer to its sample programs.
